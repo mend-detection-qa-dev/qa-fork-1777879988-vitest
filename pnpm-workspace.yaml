@@ -22,7 +22,7 @@ packages:
   - docs
   - packages/*
   - examples/*
-  - test/*
+  -'!test/workspaces/**'
   - test/cli/dts/*
   - test/config/fixtures/conditions-pkg
 overrides:
